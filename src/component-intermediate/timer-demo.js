@@ -31,6 +31,9 @@ class Timer extends Component {
         // 타이머 해제
         clearTimeout(this.state.intervalId)
     }
+
+
+
     render() {
         return (
             <div>
@@ -43,6 +46,8 @@ class Timer extends Component {
 ReactDOM.render(
     <div>
         <Timer time={10} />
+        <button>stop</button>
+        <button>resume</button>
         <Timer time={30} />
         <Timer time={60} />
     </div>,

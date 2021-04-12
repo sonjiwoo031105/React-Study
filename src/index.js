@@ -2,7 +2,8 @@
 //import './component-intermediate/state-study'
 //import './component-intermediate/counter-demo'
 //import './component-intermediate/lifecycle-methods'
-import './component-intermediate/timer-demo'
+//import './component-intermediate/timer-demo'
+import './component-intermediate/lifecycle-method-component-did-update'
 
 
 

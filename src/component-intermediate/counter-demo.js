@@ -23,7 +23,7 @@ class Counter extends Component {
     // Q1) 특정 숫자 값을 파라미터로 전달받아 count에 더해주는 add 메소드 추가
     add = (amount) => {
         this.setState((state) => {
-            return { count: state.count + amount }
+            return { count: state.count + amount}
         })
     }
 

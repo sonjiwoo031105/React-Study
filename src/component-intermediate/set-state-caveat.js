@@ -46,6 +46,8 @@ class FunctionalSetStateDemo extends Component {
                 <button onClick={this.brokenLog}>brokenLog</button>
                 <button onClick={this.brokenInc}>brokenInc</button>
                 <button onClick={this.normalInc}>normalInc</button>
+                <button onClick={this.normalLog}>normalLog</button>
+
             </div>
         );
     }

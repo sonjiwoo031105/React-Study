@@ -1,3 +1,6 @@
+import React, { Component } from 'react'
+import ReactDOM from 'react-dom'
+
 // NodeJS에서 실행
 // 리스트 데이터
 let lst = [
@@ -34,3 +37,24 @@ console.log("map =====")
 console.log(lst) // 원본에 영향 X
 console.log(updatedLst) // 새로운 객체
 console.log(lst === updatedLst) // false
+
+// 요소 삭제는 filter 메소드를 이용하여 처리
+let removedId = 1
+let removedLst = lst.filter(item => {
+    return item.id !== removedId
+})
+console.log("filter =====")
+console.log(lst) // 원본에 영향 X
+console.log(removedLst) // 새로운 객체
+console.log(lst === removedLst) // false
+
+const numbers = [1, 2, 3, 4, 5];
+const listItems = numbers.map((number) =>
+    <li>{number}</li>
+);
+
+ReactDOM.render(
+    <ul>{listItems}</ul>,
+    document.getElementById('root')
+);
+

@@ -6,7 +6,8 @@
 //import './component-intermediate/lifecycle-methods'
 //import './component-intermediate/timer-demo'
 //import './component-intermediate/lifecycle-method-component-did-update'
-import './js-study/immutable-list-manipulation.js'
+//import './js-study/immutable-list-manipulation.js'
+import './js-study/manipulate-list'
 
 
 

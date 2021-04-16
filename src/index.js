@@ -7,8 +7,8 @@
 //import './component-intermediate/timer-demo'
 //import './component-intermediate/lifecycle-method-component-did-update'
 //import './js-study/immutable-list-manipulation.js'
-import './js-study/manipulate-list'
-
+//import './js-study/manipulate-list'
+import './component-intermediate/forwarding-refs'
 
 
 

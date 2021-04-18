@@ -16,7 +16,7 @@ class StateDemoComponent extends Component {
     }
     handleValue2 = () => {
         // 이전 상태를 참조하여 상태값을 변경해야 하므로, setState 메소드에 함수 전달하여 상태 변경
-        this.setState(state => {
+        this.setState((state) => {
             return { value2: state.value2 - 1 }
         })
     }

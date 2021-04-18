@@ -12,7 +12,7 @@ class TodoItem extends Component {
                         style={completed ? { textDecoration: 'line-through' } : null}
                         onClick={() => this.props.handleTodoStatusToggle(this.props.idx)}>
                         {text}
-                    </span>&nbsp;
+                    </span> &nbsp;
                     <button onClick={() => this.props.handleTodoRemove(this.props.idx)}>X</button>
                 </div>
             </div>

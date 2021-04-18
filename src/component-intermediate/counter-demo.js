@@ -21,11 +21,11 @@ class Counter extends Component {
     }
 
     // Q1) 특정 숫자 값을 파라미터로 전달받아 count에 더해주는 add 메소드 추가
-    add = (amount) => {
-        this.setState((state) => {
-            return { count: state.count + amount}
+   add = (amount) => {
+        this.setState((state) =>{
+            return { count:state.count + amount}
         })
-    }
+   }
 
 
     render() {
@@ -38,10 +38,6 @@ class Counter extends Component {
                 <button onClick={() => {this.add(5)}}>+5</button>
                 //onClick으로 this.add(10)을 호출하는 역할을 하는 함수를 생성하여 전달
                 <button onClick={() => {this.add(10)}}>+10</button>
-
-
-
-                {/* Q2) 5, 10만큼 증가시키는 두 개의 버튼을 추가하여 Q1에서 정의한 add 메소드를 호출하도록 수정 */}
             </div>
         );
     }

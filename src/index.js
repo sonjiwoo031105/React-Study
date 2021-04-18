@@ -1,6 +1,6 @@
 //import './component-basic/function-component'
-import './component-intermediate/state-study'
-//import './component-intermediate/set-state-caveat'
+//import './component-intermediate/state-study'
+import './component-intermediate/set-state-caveat'
 //import './component-intermediate/shallow-merge-caveat'
 //import './component-intermediate/counter-demo'
 //import './component-intermediate/lifecycle-methods'

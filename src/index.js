@@ -11,7 +11,9 @@
 //import './component-intermediate/forwarding-refs'
 //import './component-intermediate/todo-app-demo'
 //import './component-intermediate/make-image-slider-3211-sonjiwoo'
-import './component-intermediate/make-image-slider'
+//import './component-intermediate/make-image-slider'
+//import './component-styling/using-css.js'
+import './component-styling/using-css-module'
 
 
 

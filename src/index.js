@@ -13,7 +13,8 @@
 //import './component-intermediate/make-image-slider-3211-sonjiwoo'
 //import './component-intermediate/make-image-slider'
 //import './component-styling/using-css.js'
-import './component-styling/using-css-module'
-
+//import './component-styling/using-css-module'
+//import './component-styling/using-svg'
+import './component-styling/using-react-icons'
 
 
